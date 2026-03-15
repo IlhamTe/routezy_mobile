@@ -117,13 +117,15 @@ routezy_mobile/
 │   └── images/
 │   └── lottie/
 ├── lib/
-│   ├── app/                # Design system, route navigation, etc
-│   │   ├── app.dart        # Entry point
-│   ├── core/               # Data, constants, service, utilities
+│   ├── app/                    # Design system, route navigation, etc
+│   │   ├── app.dart        
+│   ├── core/                   # Data, constants, service, utilities
 │   ├── features/
-│   │   ├── tracking/       # Real-time GPS tracking
-│   │   ├── history/        # Tracking history
-│   │   └── settings/       # Tracking configuration
+│   │   ├── home/               
+│   │   ├── main_home/         
+│   │   └── setting/            
+│   │   └── splash/             
+│   │   └── track_location/  
 │   ├── widgets/            # Global re-usable widget
 │   └── main.dart
 ├── test/
