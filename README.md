@@ -126,7 +126,7 @@ routezy_mobile/
 │   │   └── setting/            
 │   │   └── splash/             
 │   │   └── track_location/  
-│   ├── widgets/            # Global re-usable widget
+│   ├── widgets/                # Global re-usable widget
 │   └── main.dart
 ├── test/
 └── pubspec.yaml
