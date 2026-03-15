@@ -43,8 +43,8 @@ Make sure the following are installed before proceeding:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/routezy.git
-cd routezy
+git clone https://github.com/IlhamTe/routezy_mobile.git
+cd routezy_mobile
 ```
 
 ### 2. Install dependencies
