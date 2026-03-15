@@ -4,7 +4,7 @@ import 'package:routezy_mobile/app/design_system/app_padding.dart';
 import 'package:routezy_mobile/app/design_system/app_text_style.dart';
 import 'package:routezy_mobile/app/routes/route_paths.dart';
 import 'package:routezy_mobile/core/utils/navigation_util.dart';
-import 'package:routezy_mobile/features/main_home/main_home_page.dart';
+import 'package:routezy_mobile/features/main_home/ui/main_home_page.dart';
 import 'package:routezy_mobile/features/splash/ui/splash_page.dart';
 import 'package:routezy_mobile/features/track_location/ui/track_location_page.dart';
 import 'package:routezy_mobile/widget/gap/gap.dart';
