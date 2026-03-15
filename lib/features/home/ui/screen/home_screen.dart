@@ -9,15 +9,14 @@ class _HomeScreen extends StatefulWidget {
 
 class _HomeScreenState extends State<_HomeScreen>
     with AutomaticKeepAliveClientMixin {
-  final _trackedLocationLocalData = getIt<TrackedLocationLocalData>();
+  late final _cubit = context.read<HomeCubit>();
 
   @override
   Widget build(BuildContext context) {
     super.build(context);
     return SafeArea(
       child: ValueListenableBuilder(
-        valueListenable: _trackedLocationLocalData
-            .listenTrackedLocationChanges(),
+        valueListenable: _cubit.listenTrackedLocationChanges(),
         builder: (_, box, _) {
           final listTrackedLocation = box.values.toList();
           return ListView.separated(
